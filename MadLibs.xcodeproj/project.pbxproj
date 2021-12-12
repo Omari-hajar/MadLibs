@@ -16,6 +16,7 @@
 		CC39232C276525E400A086D3 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39232B276525E400A086D3 /* MadLibsTests.swift */; };
 		CC392336276525E400A086D3 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC392335276525E400A086D3 /* MadLibsUITests.swift */; };
 		CC392338276525E400A086D3 /* MadLibsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC392337276525E400A086D3 /* MadLibsUITestsLaunchTests.swift */; };
+		CC3923472765263A00A086D3 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3923462765263A00A086D3 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC392331276525E400A086D3 /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC392335276525E400A086D3 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		CC392337276525E400A086D3 /* MadLibsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC3923462765263A00A086D3 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		CC392313276525E200A086D3 /* MadLibs */ = {
 			isa = PBXGroup;
 			children = (
+				CC3923452765262100A086D3 /* controller */,
 				CC392314276525E200A086D3 /* AppDelegate.swift */,
 				CC392316276525E200A086D3 /* SceneDelegate.swift */,
-				CC392318276525E200A086D3 /* ViewController.swift */,
 				CC39231A276525E200A086D3 /* Main.storyboard */,
 				CC39231D276525E400A086D3 /* Assets.xcassets */,
 				CC39231F276525E400A086D3 /* LaunchScreen.storyboard */,
@@ -125,6 +127,15 @@
 				CC392337276525E400A086D3 /* MadLibsUITestsLaunchTests.swift */,
 			);
 			path = MadLibsUITests;
+			sourceTree = "<group>";
+		};
+		CC3923452765262100A086D3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC392318276525E200A086D3 /* ViewController.swift */,
+				CC3923462765263A00A086D3 /* FormViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				CC392319276525E200A086D3 /* ViewController.swift in Sources */,
 				CC392315276525E200A086D3 /* AppDelegate.swift in Sources */,
+				CC3923472765263A00A086D3 /* FormViewController.swift in Sources */,
 				CC392317276525E200A086D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
